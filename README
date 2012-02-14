@@ -1,0 +1,29 @@
+Author          : Jay Rambhia
+email 	        : jayrambhia777@gmail.com
+Git 	        : https://github.com/jayrambhia
+gist 	        : https://gist.github.com/jayrambhia
+@jayrambhia     : http://twitter.com/jayrambhia
+Blog            : http://jayrambhia.wordpress.com
+==================================================
+Name	        : TwitterBox
+version	        : 0.1
+Git             : https://github.com/jayrambhia/TwitterBox
+compatibility   : Linux (Ubuntu tested)
+
+Credits : The Python-Twitter Developers for twitter library.
+
+It's a GUI for twitter using gtk/pygtk.
+
+To use this GUI, you need your consumer key, consumer secret, access tokey key, and access token secret.
+Get all these from https://dev.twitter.com/
+Enter all of the above mentioned keys in the script.
+
+If you are behind any proxy, then enter the values accordingly.
+
+twitterBox
+	$ python twitterBox
+	GUI for posting tweets and getting friends' timeline. To get friends' timeline, move your mouse arrow out of textview.
+
+tweetBox
+	$ python tweetBox
+	A small widget to post tweets.
