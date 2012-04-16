@@ -29,6 +29,7 @@ class tweetBox:
 		self.tweet_entry = gtk.Entry()
 		self.tweet_entry.set_size_request(680,30)
 		self.tweet_entry.set_max_length(140)
+		self.tweet_entry.connect("activate",self.tweet)
 		self.box.pack_start(self.tweet_entry, False, False, 3)
 		self.tweet_entry.show()
 		
